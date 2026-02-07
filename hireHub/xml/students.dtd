@@ -1,0 +1,11 @@
+<!ELEMENT students (student+)>
+
+<!ELEMENT student (name, email, branch, cgpa, attendance, mobile)>
+<!ATTLIST student id CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT cgpa (#PCDATA)>
+<!ELEMENT attendance (#PCDATA)>
+<!ELEMENT mobile (#PCDATA)>

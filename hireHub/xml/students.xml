@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="students.xsd">
+
+  <student id="S101">
+    <name>Pavithra</name>
+    <email>pavithra@gmail.com</email>
+    <branch>IT</branch>
+    <cgpa>8.5</cgpa>
+    <attendance>92</attendance>
+    <mobile>9876543210</mobile>
+  </student>
+
+  <student id="S102">
+    <name>Chand</name>
+    <email>chand@gmail.com</email>
+    <branch>CSE</branch>
+    <cgpa>8.2</cgpa>
+    <attendance>88</attendance>
+    <mobile>9123456789</mobile>
+  </student>
+
+</students>
